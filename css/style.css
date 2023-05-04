@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+@import "login.css";
+@import "signup.css";
+@import "no-mobile.css";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #2e363e;
+}
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
+  height: 100vh;
+}
